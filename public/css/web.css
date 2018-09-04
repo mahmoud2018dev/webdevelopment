@@ -1,0 +1,232 @@
+/* start global*/
+
+
+* {
+    box-sizing: border-box;
+   -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.body{
+    
+    
+}
+
+ul{
+    
+    list-style: none;
+    padding: 0;
+    
+}
+
+
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+/* end golbal */
+
+
+/* start navbar */
+.navbar{
+    font-size: 15px;
+    height: 0;
+    position: relative;
+    z-index: 3; 
+   
+}
+.navbar .brand{
+    
+    float: left;
+    width: 40%;
+    
+}
+
+.navbar .links{
+    
+    float: left;
+    width: 60%;
+    font-weight: bold;
+        
+}
+
+.navbar .links li{
+    display: inline-block;
+    padding: 10px 15px ;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    
+}
+.navbar .links li a{
+    
+    text-decoration: none;
+    
+}
+.navbar .links  li.active{
+    
+color:darkseagreen;
+    border-bottom: 2px solid darkseagreen;
+}
+.navbar .links  li:hover{
+    
+color:darkseagreen;
+    border-bottom: 2px solid darkseagreen;
+}
+.clearfix{
+    clear: both;
+}
+/* end navbar */
+/* start  header */
+.header{
+    background: url('../imges/man-business-min.jpg');
+    position: relative;
+    
+    
+}
+  .header .overlay{
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+      z-index: 2;
+    overflow: hidden;
+}
+.header .bx-wrappe{
+     height: 100%; 
+}
+
+.header .bx-wrapper .bx-viewport{
+    
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important; 
+    text-align: center;
+}
+.header .bxslider{
+    
+ height: 100%;
+    
+}
+.header .bxslide li{
+   
+    display: block;
+     background-color: tomato;
+    height: 150px;
+}
+
+/*   end header  */
+
+
+/* start services*/
+
+.services{
+    
+    
+}
+
+.services .item{
+    float: left;
+    width: 33.333%;
+    
+    
+}
+.services .item i{
+    color: aquamarine;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.services .item .info{
+    float: left;
+    width: 75%;
+    
+}
+/*end services*/
+
+
+
+/* strt our team*/
+.ourteam .box{
+    float: left;
+    margin-top: 50px;
+}
+
+.ourteam .box:first-child{
+    width: 30%;
+
+}
+.photo{
+    margin-left: 35px;
+}
+
+
+/* endour team */
+
+/* start testmonis */
+.testm{
+    
+
+    background-image: url("/imges/salah.jpg");
+    width: 100%;
+    height: 400px;
+   
+    margin: auto;
+}
+/*.imgback{
+    width: 100%;
+    height: 300px;
+    
+}*/
+
+.testm h2{
+    
+    color: white;
+    text-align: center;
+}
+.testm p {
+    color: white;
+    text-align: center;
+}
+.par{
+    margin-top: 150px;
+}
+
+
+/*  end testmonies*/ 
+
+/*strat project*/
+.pro h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+.pro ul{
+    margin-top: 50px;
+}
+.pro ul li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #aaa;
+    /*margin: 12px;*/
+    padding: 5px;
+    color: goldenrod;
+    font-size: 20px;
+    border-radius: 5px;
+        
+}
+.pro ul li.sel{
+   background-color: darkgreen;
+}
+
+/*end project*/
+
